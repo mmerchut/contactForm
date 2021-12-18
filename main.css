@@ -1,0 +1,60 @@
+body {
+  background-color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contact {
+  background-color: rgb(203, 187, 248);
+  padding: 20px;
+  display: grid;
+  width: 400px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.contact__box {
+  padding: 20px;
+  background-color: rgb(233, 233, 233);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+}
+
+.contact__box > input {
+  border: none;
+  background-color: rgb(255, 251, 251);
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(109, 108, 108);
+}
+
+.contact__box--button {
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+
+.contact__box--button > button {
+  width: 100%;
+  background-color: blueviolet; /* Green */
+  border: none;
+  color: rgb(167, 161, 161);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact__box--button > button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(40, 1, 49);
+  transition: 250ms;
+}
